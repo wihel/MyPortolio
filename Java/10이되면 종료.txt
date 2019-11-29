@@ -1,0 +1,23 @@
+package Begin;
+
+import java.util.Scanner;
+
+public class JavaFile {
+	
+
+
+	public static void main(String[] args) {
+		Scanner a1=new Scanner(System.in);
+		int b1 = a1.nextInt();
+		while(a1.hasNext()) {
+			
+			b1+=a1.nextInt();
+			System.out.println();
+			if(b1>10) {
+				System.out.println(b1);
+			}
+		
+		}
+	}
+}
+

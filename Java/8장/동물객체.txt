@@ -1,0 +1,28 @@
+package part7;
+
+class Animal {
+	private double weight;
+	private String picture;
+	
+	void eat() { System.out.println("ea()가 호출되었습니다.");}
+	void sleep() { System.out.println("sleep()가 호출되었습니다.");}
+}
+class Lion extends Animal{
+	void roar() { System.out.println("roar()가 호출되었습니다.");}
+}
+class Eagle extends Animal{
+	void fly() { System.out.println("fly()가 호출되었습니다.");}
+}
+public class AnimalTest{
+public static void main(String[] args) {
+Lion lion=new Lion();
+lion.eat();
+lion.sleep();
+lion.roar();
+
+Eagle eagle=new Eagle();
+eagle.eat();
+eagle.sleep();
+eagle.fly();
+	}
+}

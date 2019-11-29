@@ -1,0 +1,45 @@
+//클래스 탤레비젼 테스트
+package part7;
+
+public class TelevisionTest {
+
+	public static void main(String[] args) {
+		Television t=new Television();
+		t.start();
+		t.stop();
+		t.setSpeed(30);
+		t.turn(15);
+		
+	}
+
+}
+
+//클래스 탤래비젼
+package part7;
+
+public class Television implements RemoteControl{
+	boolean onOff=false;
+	public void start() {
+	System.out.println("자동차가 출발합니다.");
+	}
+	public void stop() {
+		System.out.println("자동차가 정지합니다.");
+		}
+	public void setSpeed(int speed) {
+		System.out.println("자동차속도를 "+speed+"km/h로 바꿉니다.");
+		}
+	public void turn(int degree) {
+		System.out.println("자동차가 방향을 "+degree+"도 만큼 바꿉니다.");
+		}
+	public void turnOff() {
+		onOff= false;
+	}
+}
+//클래스 리모컨
+package part7;
+	public interface RemoteControl{
+		void start();
+		void stop();
+		void setSpeed(int speed);
+		void ture(int degree);
+	}

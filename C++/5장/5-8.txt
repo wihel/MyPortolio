@@ -1,0 +1,17 @@
+void setRadius(int r){this->r=r;}
+int getRadius(){return r;}
+};
+
+void swap(Circle &c,Circle&cc){
+int n;
+
+n=c.getRadius();
+c.setRadius(cc.getRadius());
+cc.getRadius(n);
+}
+int main(){
+Circle a;
+Circle b(10);
+
+cout<<"a ¹ÝÁö¸§ :"<<a.getRadius()<<endl;
+	

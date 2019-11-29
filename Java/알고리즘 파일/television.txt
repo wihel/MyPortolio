@@ -1,0 +1,15 @@
+package java_study;
+
+public class Television {
+	int channel;
+	int volume;
+	boolean onoff;
+	
+	public static void main(String[]args) {
+		Television Tv=new Television();
+		Tv.channel=7;
+		Tv.volume=9;
+		Tv.onoff=true;
+		System.out.println("텔레비전은 채널은"+ Tv.channel+"이고 불륨은 "+Tv.volume+"입니다." );
+	}
+}

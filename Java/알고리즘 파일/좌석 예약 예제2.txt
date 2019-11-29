@@ -1,0 +1,58 @@
+package java_study;
+
+import java.util.Scanner;
+
+public class find_new {
+	
+	public static void main(String[]args){
+		
+		Scanner scan=new Scanner(System.in);
+		int[] seats=new int[21];//좌석에 예약여부를 확인하기 위해 21개의 변수를 선언한다.1이면 예약 0이면 예약이 아니다.
+		int sum=0,min=0;//sum은 좌석을 합해서 예약된좌석개수를 min은 예약되지 않은 좌석개수를 구한다.
+		
+		while(true)
+		{
+			System.out.println("--------------------------------------------------");
+			System.out.print("\t\t");
+			for (int i=1; i<= 5; i++)//여기서부터는 좌석 위치를 출력시킨다.
+				System.out.print("a" + i + "\t");
+			System.out.print("\n\t");
+			
+			for (int i = 1; i <= 7; i++)
+				System.out.print("b" + i + "\t");
+			System.out.print("\n");
+			
+			for (int i = 1; i <= 9; i++)
+				System.out.print("c"+ i +"\t");
+			
+				System.out.println("\n--------------------------------------------------");
+				System.out.print("\t\t");
+				for (int i = 0; i <= 4; i++)//여기선 좌석예약여부를 확인한다.
+					System.out.print(seats[i]+"\t");
+				System.out.print("\n\t");
+				
+				for (int i = 5; i <= 11; i++)
+					System.out.print(seats[i]+ "\t");
+				System.out.print("\n");
+				
+				for (int i = 12; i <= 20; i++) 
+					System.out.print(seats[i]+"\t");
+					System.out.println("\n--------------------------------------------------");
+				
+					sum=0;
+				for(int i=0;i<seats.length;i++) //예약된 좌석의 개수를 sum변수에 저장한다.
+					sum+=seats[i];//에러난 부분 
+				
+			System.out.println("\n원하시는 좌석번호를 입력하세요(종료는 -1, 예약확인은 -2, 예약현황은 -3): ");
+			int order=scan.nextInt();
+			if(order==-1)//종료
+				break;
+			if(order==-2)//예약 확인
+				continue;
+			if(order==-3) { System.out.println(sum+"예약석은 "+(min=21-sum)+"빈자리는 "+"입니다.");
+			continue;}//예약 현황
+			
+			if(seats[order-1]==0) {seats[order-1]=1;}//예약석 입력
+		}
+	}
+}

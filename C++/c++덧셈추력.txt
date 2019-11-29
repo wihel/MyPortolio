@@ -1,0 +1,10 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+	int a, b;
+	cin >>a >> b ;//cin은 입력을 받는것
+	cout <<a<< "+" <<b<<'='<<a+b<< endl;
+
+}

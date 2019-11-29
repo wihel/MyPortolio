@@ -1,0 +1,20 @@
+package Begin;
+
+import java.util.Scanner;
+
+import javax.swing.JFrame;
+
+public class JavaFile {
+	
+
+
+	public static void main(String[] args) {
+			JFrame f =new JFrame();								//프레임생성
+			f.setSize(300,300);									//크기조절
+			f.setVisible(true);									//창을 본다
+			f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);	//닫으면 메모리에서 삭제
+			
+		
+	}
+}
+

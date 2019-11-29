@@ -1,0 +1,32 @@
+package java_study;
+
+public class SortEample {
+	public static void main(String[]args) {
+		final int SIZE=10;
+		int[] numbers=new int [SIZE];
+		int tmp=0;
+		for(int i=0;i<SIZE;i++) {
+			int r = (int)(Math.random()*100);
+			numbers[i]=r;
+		}
+		System.out.print("최초의 리스트 :");//랜덤 1~100까지의 난수를 출력
+	    for (int r : numbers)//변수 첫번쨰 원소부터 마지막 배열 원소까지 차례로 출력시킨다.
+	    	System.out.print(r+"  ");
+	    
+	    for(int i=0;i<numbers.length;i++) {
+	    	for(int j=i;j<numbers.length;j++) {
+	    		//if(numbers[i]==numbers[j])continue;
+	    		if(numbers[i]>numbers[j]) {
+	    			tmp=numbers[i];
+	    			numbers[i]=numbers[j];
+	    			numbers[j]=tmp;
+	    			
+	    		}
+	    	}
+	    }
+	    
+	    System.out.print("\n정렬된 리스트 :");
+	    for(int r : numbers)
+	    	System.out.print(r+"  ");//진열 시킨 값을 출력
+	}
+}

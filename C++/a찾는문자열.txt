@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+#define _CRT_SECURE_NO_WARNINGS
+
+class String {
+public:
+	char word[50];
+};
+int main() {
+	String s;
+	scanf("%s", s.word);
+	char a = 'a';
+	int count = 0;
+	for (int i = 0; i < sizeof(s.word); i++) {
+		if (a = s.word[sizeof(s.word)]) {
+			count++;
+		}
+	}
+void find(char d)

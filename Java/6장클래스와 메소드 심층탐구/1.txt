@@ -1,0 +1,20 @@
+public class JavaFile{
+private int regNumber;
+private  String name;
+private int balance;
+
+public String getName() { return name; }
+public void setName(String name) {this.name=name;}
+public int getBalance() {return balance;}
+public void setBalance(int balance){this.balance=balance;}
+}
+////////////////////////////////////////////////////////////////////////////////////////////
+public class m {
+	public static void main(String[]args) {
+		JavaFile obj=new JavaFile();
+		obj.setName("Tom");//이름을 톰으로 설정
+		obj.setBalance(100000);//통장 장고를 1만원으로 정의
+		System.out.println(obj.getName()+"통장 잔고는 "+obj.getBalance()+"입니다.");출력
+	}
+}	
+

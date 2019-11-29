@@ -1,0 +1,19 @@
+package Begin;
+
+import java.util.Scanner;
+
+import javax.swing.JFrame;
+
+public class JavaFile extends JFrame{
+		public static void main(String[] args) {
+			JavaFile mf=new JavaFile();
+		
+	}
+		JavaFile(){
+			setSize(500,500);
+			setVisible(true);
+			setTitle("³»°¡ ¸¸µë");
+			setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		}
+}
+

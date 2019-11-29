@@ -1,0 +1,26 @@
+package java_study;
+class Student{
+	String name;
+	int kor, eng, math,sum;//인스턴스 변수를 선언한다
+	int getTotal(){
+		sum=kor+eng+math;
+		return sum;
+	}
+	float getAverage(){
+		return (kor+eng+math)/3;
+	}
+}
+public class Test {
+public static void main(String[]args) {
+	Student stu; //Tv클래스 타입에 참조변수를 선언한다.
+	stu = new Student();//클래스의 객체를 생성한뒤 객체의 주소를 참조변수에 저장한다.
+	stu.name="우지윤";
+	stu.kor=30;
+	stu.eng=90;
+	stu.math=50;
+	System.out.println("이름:"+stu.name);
+	System.out.println("총점:"+stu.getTotal());
+	System.out.println("평점:"+stu.getAverage());	
+}
+}
+

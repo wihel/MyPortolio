@@ -1,0 +1,39 @@
+package java_study;
+class Total{
+	int kor,math,eng,sum,avg;
+
+	String name;
+	int getTotal() {
+		sum=(kor+math+eng);
+		return sum;
+	}
+	
+	int getAvg() {
+		avg=(kor+math+eng)/3;
+		return avg;
+	}	
+}
+
+
+public class Test2 {
+	public static void main(String[]args) {
+		
+		Total tot = new Total();
+		tot.eng = 70;
+		tot.math =60;
+		tot.kor =90;
+		int rSum = tot.getTotal();
+		System.out.println("ÃÑÁ¡:"+rSum);
+		System.out.println(tot.getAvg());
+		
+/*		tot.name="¿ìÁöÀ±";
+		tot.kor=32;
+		tot.math=78;
+		tot.eng=98;
+		System.out.println("±¹¾î"+tot.kor);
+		System.out.println("¼öÇÐ"+tot.math);
+		System.out.println("¿µ¾î"+tot.eng);
+		System.out.println("Æò±Õ"+tot.getTotal());*/
+
+	}
+}

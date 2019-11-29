@@ -1,0 +1,44 @@
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Server-master\TCPServer01\bin\Debug\TCPServer01.exe
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Server-master\TCPServer01\bin\Debug\TCPServer01.pdb
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.csprojAssemblyReference.cache
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.frmTcpServer.resources
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.Properties.Resources.resources
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.csproj.GenerateResource.cache
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.csproj.CoreCompileInputs.cache
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.exe
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.pdb
+C:\Users\aooox\OneDrive\바탕 화면\TCP_IP\Chat_Server-master\TCPServer01\bin\Debug\TCPServer01.exe
+C:\Users\aooox\OneDrive\바탕 화면\TCP_IP\Chat_Server-master\TCPServer01\bin\Debug\TCPServer01.pdb
+C:\Users\aooox\OneDrive\바탕 화면\TCP_IP\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.csprojAssemblyReference.cache
+C:\Users\aooox\OneDrive\바탕 화면\TCP_IP\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.frmTcpServer.resources
+C:\Users\aooox\OneDrive\바탕 화면\TCP_IP\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.Properties.Resources.resources
+C:\Users\aooox\OneDrive\바탕 화면\TCP_IP\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.csproj.GenerateResource.cache
+C:\Users\aooox\OneDrive\바탕 화면\TCP_IP\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.csproj.CoreCompileInputs.cache
+C:\Users\aooox\OneDrive\바탕 화면\TCP_IP\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.exe
+C:\Users\aooox\OneDrive\바탕 화면\TCP_IP\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.pdb
+C:\Users\aooox\OneDrive\바탕 화면\TCP_IP\Chat_Server-master\TCPServer01\bin\Debug\TCPServer01.exe.config
+C:\Users\aooox\OneDrive\바탕 화면\TCP_IP\Chat_Server-master\TCPServer01\bin\Debug\MaterialSkin.dll
+C:\Users\aooox\OneDrive\바탕 화면\TCP_IP\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.csproj.CopyComplete
+J:\포멧전 보존파일들\C#pro\Chat_Server-master\TCPServer01\bin\Debug\TCPServer01.exe.config
+J:\포멧전 보존파일들\C#pro\Chat_Server-master\TCPServer01\bin\Debug\TCPServer01.exe
+J:\포멧전 보존파일들\C#pro\Chat_Server-master\TCPServer01\bin\Debug\TCPServer01.pdb
+J:\포멧전 보존파일들\C#pro\Chat_Server-master\TCPServer01\bin\Debug\MaterialSkin.dll
+J:\포멧전 보존파일들\C#pro\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.csprojAssemblyReference.cache
+J:\포멧전 보존파일들\C#pro\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.frmTcpServer.resources
+J:\포멧전 보존파일들\C#pro\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.Properties.Resources.resources
+J:\포멧전 보존파일들\C#pro\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.csproj.GenerateResource.cache
+J:\포멧전 보존파일들\C#pro\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.csproj.CoreCompileInputs.cache
+J:\포멧전 보존파일들\C#pro\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.csproj.CopyComplete
+J:\포멧전 보존파일들\C#pro\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.exe
+J:\포멧전 보존파일들\C#pro\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.pdb
+D:\source\repos\Chat_Server-master\TCPServer01\bin\Debug\TCPServer01.exe.config
+D:\source\repos\Chat_Server-master\TCPServer01\bin\Debug\TCPServer01.exe
+D:\source\repos\Chat_Server-master\TCPServer01\bin\Debug\TCPServer01.pdb
+D:\source\repos\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.csprojAssemblyReference.cache
+D:\source\repos\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.frmTcpServer.resources
+D:\source\repos\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.Properties.Resources.resources
+D:\source\repos\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.csproj.GenerateResource.cache
+D:\source\repos\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.csproj.CoreCompileInputs.cache
+D:\source\repos\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.csproj.CopyComplete
+D:\source\repos\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.exe
+D:\source\repos\Chat_Server-master\TCPServer01\obj\x86\Debug\TCPServer01.pdb

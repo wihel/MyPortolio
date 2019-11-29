@@ -1,0 +1,16 @@
+import java.util*;
+import java.util.regex.pattern;
+
+String s="Hello World!3+3.0=6";
+
+Scanner scanner=new Scanner(s);
+
+System.out.println(""+scanner.hasNext());
+
+
+System.out.println(""+scanner.naxtLine());
+
+
+System.out.println(""+scanner.hasNext());
+
+scanner.close

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>이벤트 당첨자 발표</title>
+ <style>
+ body {
+ text-align:center;
+ font-size:30px;
+ }
+ p{
+ 	padding: 20px auto;
+ }
+ .title{
+ 	padding: 5px;
+ 	border: 1px solid#ccc;
+ 	background: #b2fea7;
+ }
+ #total, #result {
+ width:auto;
+ padding-left:20px;
+ color:red;
+ }
+ </style>
+</head>
+<body>
+<img src="dice.jpg">
+<p><span class="title">전체 응모자 수 :</span><span id="total"></span> </p>
+<p><span class="title">당첨 번호 : </span><span id="result"></span></p>
+</body>
+ <script>
+ var seed = prompt("전체 응모자 수: ");
+ var today = new Date();
+ var current = today.getSeconds();
+ var rnum = (current % seed) + 1;
+ var totalArea = document.getElementById("total");
+ var resultArea = document.getElementById("result");
+ totalArea.innerHTML = seed + "명";
+ resultArea.innerHTML = rnum + "번!!";
+ </script>
+</html>

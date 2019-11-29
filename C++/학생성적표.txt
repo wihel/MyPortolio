@@ -1,0 +1,46 @@
+#include<stdio.h>
+#include<string.h>
+struct score {
+	char name[10];
+	int korean;
+	int english;
+	int math;
+};
+void main() {
+	struct score Lee[10]={
+	{"이진호"},
+	{"이진호"},
+	{"이진호"},
+	{"이진호"},
+	{"이진호"},
+	{"이진호"},
+	{"이진호"},
+	{"이진호"},
+	{"이진호"},
+	{"이진호"}
+	};
+	struct score *p;
+
+	p = %Lee;
+
+	for (int i = 0; i < 9; i++) {
+		printf("%d번의 학생 성적을 입력해주세요 : ",i);
+		scanf_s("%d %d %d", &Lee[i].korean, &Lee[i].english, &Lee[i].math);
+	}
+	int sum[10] = {0};
+	double avy = 0;
+	for (int i = 0; i <10; i++) {
+		sum[i] = Lee[i].korean + Lee[i].english + Lee[i].math;
+		/*(double)*/avy = sum[i] / 3;
+		//(int)avy;
+//		printf("이름 : %s\t", Lee[i].name);
+		printf("국어 : %d\t", Lee[i].korean);
+		printf("영어 : %d\t", Lee[i].english);
+		printf("수학 : %d\t", Lee[i].math);
+		printf("총점 : %d\t",sum[i]);
+		printf("평균 : %f\n",avy);
+
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package Begin;
+
+import java.util.Scanner;
+
+public class JavaFile {
+	
+
+
+	public static void main(String[] args) {
+		int max,min;
+		
+		int b[]=new int[3];
+		Scanner a1 = new Scanner(System.in);
+		while(a1.hasNext()) {
+		String s1=a1.next();
+		if(s1.equals("x"))
+		{
+			break;
+		}
+		System.out.println(s1);
+		
+		}
+	}
+}
+

@@ -1,0 +1,14 @@
+package java_study;
+
+public class Homework1 {//1+2+4+7+11+16
+						//더하는 값이 하나씩 오름
+     public static void main(String[]args) {
+    	 int ps1=1;
+    	 System.out.println(ps1);
+    	 for(int i=1;i<=20;i++) {//20번 더함
+    		 ps1+=i;
+    		 
+    		 System.out.println(ps1);
+    	 }
+     }
+}

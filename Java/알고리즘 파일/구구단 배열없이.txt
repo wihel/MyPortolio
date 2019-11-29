@@ -1,0 +1,21 @@
+		int i=1, j=1;
+		
+		while(i<10)
+		{
+		System.out.print("   *"+i+"´Ü*\t\t");
+		i++;
+		}
+		i=1;
+		System.out.println("");
+		
+		while(j<10)
+		{
+			while(i<10)
+			{
+				
+				System.out.print(i+" * "+j+" = "+i*j+"\t\t");
+				i++;
+			}
+			j++;
+			i=1;
+			System.out.println("");

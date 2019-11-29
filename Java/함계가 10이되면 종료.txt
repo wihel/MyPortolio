@@ -1,0 +1,22 @@
+package Begin;
+
+import java.util.Scanner;
+
+public class JavaFile {
+	
+
+
+	public static void main(String[] args) {
+		int sum=0;
+		Scanner num=new Scanner(System.in);
+		while(true) {
+			int b1 = num.nextInt();
+			sum+=b1;
+			System.out.println(sum);
+			if(sum>=10) {
+				break;
+			}
+		}
+	}
+}
+

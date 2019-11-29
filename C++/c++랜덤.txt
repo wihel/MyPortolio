@@ -1,0 +1,36 @@
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+using namespace std;
+class EvenRandom {
+public:
+	EvenRandom();
+	int next();
+	int nextInRange(int a, int b);
+};
+
+EvenRandom::EvenRandom() { // 랜덤함수 생성
+	srand((unsigned)time(0)); // 매 번 다른 랜덤수를 발생시키기 위한 seed 설정
+}
+int EvenRandom::next() { // 랜덤 리턴
+	return rand() / 2 * 2; // /2를 하면 int형 이기 때문에 소수점이하가 버려진다. 다시 *2를 해서 짝수만 남게 된다.
+}
+
+int EvenRandom::nextInRange(int a, int b) {
+	return (rand() % (b - a + 1) + a) / 2 * 2+1; //a~b까지 랜덤
+}
+
+int main() {
+	EvenRandom r;
+	cout << "-- 0에서 " << RAND_MAX << "까지의 랜덤 정수 10개 --" << endl; // RAND_MAX(32767)
+	for (int i = 0; i < 10; i++) { // 10개의 랜덤 정수 발생
+		int n = r.next();
+		cout << n << " ";
+	}
+	cout << endl << endl << "-- 2에서 10까지 랜덤 정수 10개 --" << endl;
+	for (int i = 0; i < 10; i++) { // 2~10까지 10개의 랜덤 정수 발생
+		int n = r.nextInRange(2, 10);
+		cout << n << " ";
+	}
+	cout << endl;
+}

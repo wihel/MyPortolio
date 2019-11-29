@@ -1,0 +1,35 @@
+package java_study;
+import java.util.Scanner;
+public class find_new {
+	public static void main(String[]args){
+		
+		Scanner scan=new Scanner(System.in);
+		int[] seats=new int[21];
+		String block="   ";
+		
+		while(true)
+		{
+			System.out.print(block+block+block+block+block+"   ");
+			
+			int time=5, sum=0,mini=seats.length;
+			
+			for(int i=0;i<seats.length;i++) {
+				if(i<10)System.out.print(" ");//1~9까지의 수는 띄어쓰기
+				if(time==i) {System.out.print("\n"); time+=i+2;}//한쭐 뛸때마다 뛰어쓰기
+				if(i==5) System.out.print(block+block+"    ");
+				System.out.print(block+(i+1)+" : "+seats[i]);//좌석번호랑 좌석 예약 유무를 출력
+				sum+=seats[i];//예약된 좌석 계수를 합한다.
+			}
+			System.out.println("\n원하시는 좌석번호를 입력하세요(종료는 -1, 예약확인은 -2, 예약현황은 -3): ");
+			
+			int order=scan.nextInt();
+			if(order==-1)//종료
+				break;
+			if(order==-2)//예약 확인
+				continue;
+			if(order==-3) {mini-=sum; System.out.println("예약석은 "+sum+"빈자리는 "+mini+"입니다.");
+			continue;}//예약 현황
+			if(seats[order-1]==0) {seats[order-1]=1;}//예약석 입력
+		}
+	}
+}

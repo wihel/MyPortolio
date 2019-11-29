@@ -1,0 +1,22 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main() {
+	int count = 0;
+	string s;
+
+	cout << "문자열을 입력해주세요." << endl;
+	//getline을 사용하는 이유는 빈칸을 포함시키기 위함
+	getline(cin, s);//S문자열 입력
+	for (int i = 0; i < s.length(); i++) {
+		if (s[i] == 'a') {
+			count++;
+		}
+	}
+	for (int i = 0; i < s.length(); i++) {// 문자열 출력
+		cout << s[i];
+
+	}
+	cout << "\n" << count << endl;//a의 개수 출력
+}

@@ -1,0 +1,45 @@
+package Begin;
+
+import java.util.Scanner;
+
+public class JavaFile {
+	
+
+
+	public static void main(String[] args) {
+		int max,min;
+
+		
+		Scanner a1 = new Scanner(System.in);
+		int b1 = a1.nextInt();
+		
+		Scanner a2 = new Scanner(System.in);
+		int b2 = a2.nextInt();
+		
+		Scanner a3=  new Scanner(System.in);
+		int b3 = a3.nextInt();
+		
+		System.out.println(b1);
+		System.out.println(b2);
+		System.out.println(b3);
+		
+		if(b1>b2) {
+			max=b1;
+			min=b2;
+		}
+		else {
+			max=b2;
+			min=b1;
+		}
+		if (max<b3) {
+			max=b3;
+		}
+		if(min>b3) {
+			min=b3;
+		}
+		
+		System.out.println(max+"±×¸®°í"+min);
+		
+	}
+
+}

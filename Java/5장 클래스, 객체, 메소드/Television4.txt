@@ -1,0 +1,23 @@
+public class Television{
+int channel;
+int volume;
+boolean onOff;
+void print() {
+	System.out.println("채널은"+channel+"이고 불륨은 "+volume+"입니다.");
+	}
+public int getChannel() {
+	return channel;
+	}
+}
+
+public class TelevisionTest {
+	public static void main(String[]args) {
+	Television myTv=new Television();
+	myTv.channel=7;
+	myTv.volume=7;
+	myTv.onOff=true;
+	int ch= myTv.getChannel();
+	myTv.print();
+	System.out.println("현재 채널은 "+ch+"입니다.");
+	}
+}

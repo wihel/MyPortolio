@@ -1,0 +1,16 @@
+package Begin;
+
+
+public class m {
+	int counter;
+	m(){//클래스이름과 동일한 메소드가 생성자 여기서 객체초기화를 담당한다.
+		counter=1;
+	}
+	public static void main(String[]args) {
+		m obj1=new m();//객체선언
+		m obj2=new m();
+		
+		System.out.println(obj1.counter);
+		System.out.println(obj2.counter);
+	}
+}

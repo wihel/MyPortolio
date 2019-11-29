@@ -1,0 +1,34 @@
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Client-master\TCPClient01\bin\Debug\TCPClient01.exe
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Client-master\TCPClient01\bin\Debug\TCPClient01.pdb
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.csprojAssemblyReference.cache
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.Properties.Resources.resources
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.frmTcpClient.resources
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.csproj.GenerateResource.cache
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.csproj.CoreCompileInputs.cache
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.exe
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.pdb
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Client-master\TCPClient01\bin\Debug\TCPClient01.exe.config
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Client-master\TCPClient01\bin\Debug\MaterialSkin.dll
+C:\Users\aooox\OneDrive\바탕 화면\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.csproj.CopyComplete
+J:\포멧전 보존파일들\C#pro\Chat_Client-master\TCPClient01\bin\Debug\TCPClient01.exe.config
+J:\포멧전 보존파일들\C#pro\Chat_Client-master\TCPClient01\bin\Debug\TCPClient01.exe
+J:\포멧전 보존파일들\C#pro\Chat_Client-master\TCPClient01\bin\Debug\TCPClient01.pdb
+J:\포멧전 보존파일들\C#pro\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.csprojAssemblyReference.cache
+J:\포멧전 보존파일들\C#pro\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.Properties.Resources.resources
+J:\포멧전 보존파일들\C#pro\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.frmTcpClient.resources
+J:\포멧전 보존파일들\C#pro\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.csproj.GenerateResource.cache
+J:\포멧전 보존파일들\C#pro\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.csproj.CoreCompileInputs.cache
+J:\포멧전 보존파일들\C#pro\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.csproj.CopyComplete
+J:\포멧전 보존파일들\C#pro\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.exe
+J:\포멧전 보존파일들\C#pro\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.pdb
+D:\source\repos\Chat_Client-master\TCPClient01\bin\Debug\TCPClient01.exe.config
+D:\source\repos\Chat_Client-master\TCPClient01\bin\Debug\TCPClient01.exe
+D:\source\repos\Chat_Client-master\TCPClient01\bin\Debug\TCPClient01.pdb
+D:\source\repos\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.csprojAssemblyReference.cache
+D:\source\repos\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.Properties.Resources.resources
+D:\source\repos\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.frmTcpClient.resources
+D:\source\repos\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.csproj.GenerateResource.cache
+D:\source\repos\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.csproj.CoreCompileInputs.cache
+D:\source\repos\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.csproj.CopyComplete
+D:\source\repos\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.exe
+D:\source\repos\Chat_Client-master\TCPClient01\obj\x86\Debug\TCPClient01.pdb
